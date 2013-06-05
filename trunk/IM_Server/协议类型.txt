@@ -1,0 +1,35 @@
+QQMes			//QQ好友消息
+	{type:"qqMes",playload:{sender:"XXX",target:"XXX",time:"XXX",mes:"XX"}}
+	
+GroupMes 
+	{type:"groupMes",playload:{sender:"XXX",target:"XXX",time:"XXX",mes:"XX"}}
+	
+Login           //QQ群消息
+ 	request:{type:"login",playload:{username:"XXX",password:"XXX"}}
+	response:{type:"login",playload:{login:XXX}}
+	
+FileTrans       //文件传输
+	//请求类型
+	{type:"fileTrans",playload:{type:"request",action:"send" target:目标,fileName:"文件名",size:"文件长度",md5:"M5D码"}}
+	{type:"fileTrans",playload:{type:"request",action:"cancel" target:目标,md5:"M5D码"}}
+	//响应类型
+	{type:"fileTrans",playload:{type:"response",target:目标,action:"agree",position:"文件发送偏移量",md5:"MD5码",host:"IP",port:端口}}
+	{type:"fileTrans",playload:{type:"response",target:目标,action:"refuse",md5:"MD5码"}}
+  
+Register         //注册
+	request:{type:"register",playload:"nickName:"xxx",password:"xxx"}}
+	response:{type:"register",playload:{success:true,qqNum:"xxx"}}
+	
+SearchQQ         //查找QQ
+	request:{type:"searchQQ",playload:{type:"all | one",isOnline:xxx,qq:"xxx"}}
+	response:{type:"searchQQ",playload:[{qq:"xxx",nickName:"xxx",faceImg:"xxxx"}]}
+	
+GroupFriends     //分组好友
+	request:{type:"friendGroup",playload:{type:"group | friend","groupId:XXX}}
+	response:{type:"friendGroup",playload:{type:"group",groups:[{xxx},{xxxx]}}
+	response:{type:"friendGroup",playload:{type:"friend",groudId:"xxx",friends:[{xxx,state:"xxx"}]}}
+	
+State            //好友状态
+  response:{type:"state",playload:[userName:"",state:"xxx"]}
+  
+

@@ -1,0 +1,4 @@
+JDK版本：1.6
+tomcat版本：apache-tomcat-7.0.40
+Demo没有加入添加好友功能，需自己手动添加数据，sql文件存放在IM_Server\skyqq.sql
+IM_Server支持打包以Jar的方式直接运行
