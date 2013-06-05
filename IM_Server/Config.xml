@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Config>
+  <!--服务器端口号-->
+  <qq_port>8023</qq_port>
+  <!--服务器负载量-->
+  <qq_onlineNum>10</qq_onlineNum>
+  <!--数据库驱动名称-->
+  <qq_dbDriverName>com.mysql.jdbc.Driver</qq_dbDriverName>
+  <!--数据库名称-->
+  <qq_dbUrl>jdbc:mysql://127.0.0.1:3306/skyqq</qq_dbUrl>
+  <!--数据库用户名-->
+  <qq_userName>root</qq_userName>
+  <!--数据库密码-->
+  <qq_password>10086</qq_password>
+  <!--数据连接池初始连接数-->
+  <qq_dbConnectionInitCountt>10</qq_dbConnectionInitCountt>
+  <!--数据连接池最大连接数-->
+  <qq_dbConnectionMaxCount>50</qq_dbConnectionMaxCount>
+  <!--自动扫描类Path-->
+  <classPath>com.sky.qq</classPath>
+</Config>

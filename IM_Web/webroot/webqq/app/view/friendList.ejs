@@ -1,0 +1,14 @@
+<%
+	for(var p in groups){
+	%>
+	<div class="friend_group">
+		<div class="one_group" tag="<%=groups[p].id %>" isExpand="false">
+			<div class="group_ico_collapsed" id="group_ico_<%=groups[p].id %>"></div>
+			<div class="group_name" id="group_name_<%=groups[p].id %>"><%=groups[p].name %></div>
+		</div>
+    	<div class="group_container" id="group_container_<%=groups[p].id %>">
+    	</div>
+	</div>
+	<%
+	}
+%>

@@ -1,0 +1,182 @@
+
+#main {
+	width: 287px;
+	height: 585px;
+	position: absolute;
+	background-color: rgb(223, 238, 246);
+	overflow: hidden;
+	font: 12px/1.5 tahoma,helvetica,clean,sans-serif;
+	z-index: 4;
+	background-image: url('../images/bg2.png');
+	background-repeat: repeat no-repeat;
+	border: 1px solid #3e7186;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 4px #333;
+}
+#qq_face {
+	width: 44px;
+	height: 44px;
+}
+#qq_face img{
+	border: 1px solid #999;
+	padding: 1px;
+	background: white;
+	box-shadow: 1px 1px 3px #666;
+	-webkit-box-shadow: 1px 1px 3px #666;
+}
+.main_top {
+	width: 100%;
+	height: 20px;
+}
+#main_close{
+	background: url('../images/sprite.png') 0 -784px!important;
+	height: 20px;
+	float: right;
+	width: 39px;
+	margin: -2px;
+	cursor: pointer;
+}
+ #main_close:hover{
+ 	background: url('../images/sprite.png') 0 -745px!important;
+ }
+.qq_info{
+	width: 100%;
+	overflow: hidden;
+}
+.qq_info_left {
+	float: left;
+	width: 15%;
+	margin-left: 7px;
+}
+.qq_info_right {
+	float: right;
+	width: 80%;
+	height: 40px;
+}
+.qq_toolbar{
+	width:90%;
+	height: 20px;
+	margin: 7px 5px 3px;
+	background: url('../images/eqq_sprite_png.png') -2px -352px no-repeat;
+}
+.tab {
+	margin: 0;
+	width: 100%;
+	height: 33px;
+	overflow: hidden;
+	background: #badbea;
+}
+.tab > div {
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.tab > div > div{
+	cursor: pointer;	
+}
+
+.tab_friends {
+	background: url('../images/eqq_sprite.gif') no-repeat -40px -174px;
+	margin: 0 auto;
+	width: 20px;
+	height: 33px;
+}
+.tab_groupList {
+	margin: 0 auto;
+	width: 20px;
+	height: 33px;
+	background: url('../images/eqq_sprite.gif') no-repeat -40px -254px;
+}
+.tab_recentList {
+	margin: 0 auto;
+	width: 20px;
+	height: 33px;
+	background: url('../images/eqq_sprite.gif') no-repeat -40px -334px;
+}
+#friend_list{
+	width: 100%;
+	background-color: #F5FAFD;
+    height: 410px;
+}
+#txt_searchBox {
+	border: 0 solid #ccc;
+	padding: 5px 2px;
+	width: 100%;
+	height: 16px;
+	overflow: hidden;
+	margin: 0;
+	line-height: 16px;
+	color: #999;
+	font-size: 12px;
+}
+.one_group{
+	display: block;
+	border: 0;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	cursor: pointer;
+	color: #000;
+	margin: 0 3px;
+}
+.group_ico_collapsed{
+	width: 18px;
+	height:16px;
+	margin:7px 0;
+	background: url("../images/eqq_sprite.gif") no-repeat scroll -12px -16px transparent;
+	float: left;
+}
+.group_container{
+	clear: both;
+	height: 0px;
+    overflow: hidden;
+}
+.qq_infor{
+	width: 100%;
+	height: 40px;
+	cursor: pointer;
+	background-color: transparent;
+	padding: 4px;
+}
+.qq_infor > div:last-child{
+	float: left;
+	margin-left: 10px;
+}
+.qq_infor_faceimg{
+	float: left;
+	height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.main_buttom{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	overflow: hidden;
+	background: #dfeef6;
+	border-bottom-right-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+#main_search_friend{
+	display: inline;
+	float: left;
+	margin: 4px 4px 4px;
+	text-indent: 4px;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#main_search_friend > div{
+	display: inline;
+	float: left;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	background: url('../images//eqq_sprite_png.png') no-repeat -2px -82px;
+}

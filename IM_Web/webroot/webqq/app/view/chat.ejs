@@ -1,0 +1,24 @@
+<div class="chat" id="chat_<%=qq.userName%>">
+	<div class="chat_top" id="chat_top_<%=qq.userName%>">
+		<div>
+			<div class="chat_qq_faceimg"><img src="data:image/jpg;base64,<%=qq.faceImg%>"/></div> 
+			<div id="chat_qq_nickname_" class="chat_qq_nickname"><%=qq.nickName%></div>
+		</div>
+		<div>
+			<a class="chat_qq_close" id="chat_qq_close_<%=qq.userName%>"></a>
+		</div>
+	</div>
+	<div class="chat_show_mes" id="chat_show_mes_<%=qq.userName%>"> </div>
+	<div class="chat_operate">
+		<a class="chat_operate_brow" title="表情" id="chat_brow_<%=qq.userName%>" isOpen="false"> </a>
+		<a class="chat_operate_trans_file" title="发送文件"> </a>
+		<a class="chat_operate_clear" id="chat_operate_clear_<%=qq.userName%>" title="清屏"> </a>
+	</div>
+	<div class="rich_editor">
+		<div class="rich_editor_text" id="rich_editor_text_<%=qq.userName%>" contentEditable="true"> </div>
+	</div>
+	<div class="chat_buttom">
+		<a class="chat_buttom_send" id="chat_buttom_send_<%=qq.userName%>">发　送</a>
+		<a class="chat_buttom_close" id="chat_buttom_close_<%=qq.userName%>">关　闭</a>
+	</div>
+</div>

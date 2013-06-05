@@ -1,0 +1,28 @@
+.brows_panel{
+	width: 446px;
+	height: 214px;
+	overflow: hidden;
+	position: absolute;
+	border:1px solid #666;
+	z-index: 0;
+	background: white;
+	display: none;
+}
+.brows_container{
+	margin: 5px;
+	width: 438px;
+	height: 204px;
+	background: url('../images/brow.gif') no-repeat;
+}
+.brows_container a{
+	display: block;
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin: 1px 0 0 1px;
+	overflow: hidden;
+	cursor: default;
+}
+.brows_container a:hover{
+	border: 1px solid #45649e;
+}
